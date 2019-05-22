@@ -10,7 +10,6 @@ import UIKit
 
 class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
     let list = ["1","2","3","4","5"]
-    let words = ["one","two","three","four","five"]
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return (list.count)
     }
